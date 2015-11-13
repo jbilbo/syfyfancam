@@ -30,6 +30,12 @@ RSpec.describe Syfyfancam::URL do
         expect(images[99]).to eq('http://a.com/100.jpg')
       end
     end
+
+    describe '#personal_hash' do
+      it 'return the hash in the URL' do
+        expect(syfyfancam.personal_hash).to eq('ojt1nd5bnbog')
+      end
+    end
   end
 
   context 'Wrong URL' do

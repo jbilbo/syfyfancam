@@ -17,14 +17,14 @@ module Syfyfancam
       build_urls.map { |url| URI.parse(url).to_s }
     end
 
+    def personal_hash
+      uri.to_s.split('/').last
+    end
+
     private
 
     def personal_hash?
       personal_hash && personal_hash.size == 12
-    end
-
-    def personal_hash
-      uri.to_s.split('/').last
     end
 
     def build_urls
