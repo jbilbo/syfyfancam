@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.files = %w(README.md LICENSE) + Dir['lib/**/*.rb']
   s.test_files = Dir['spec/**/*.rb']
 
-  s.add_runtime_dependency('nokogiri', '~> 1.6')
+  s.add_runtime_dependency('nokogiri', '~> 1.6.6.4')
   s.add_development_dependency('rspec', '~> 3.3')
 end
