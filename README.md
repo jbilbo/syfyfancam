@@ -16,7 +16,7 @@ $ gem install syfyfancam
 
 Add:
 ```ruby
-gem 'syfyfancam', '~> 0.1'
+gem 'syfyfancam'
 ```
 
 and then execute:
