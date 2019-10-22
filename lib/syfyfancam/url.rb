@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'nokogiri'
 require 'uri'
 require 'net/http'
@@ -8,7 +10,7 @@ module Syfyfancam
 
     def initialize(url)
       @uri = URI.parse(url)
-      fail ArgumentError, ERROR_URL unless personal_hash?
+      raise ArgumentError, ERROR_URL unless personal_hash?
     rescue URI::InvalidURIError => e
       raise e, ERROR_URL
     end
@@ -28,7 +30,7 @@ module Syfyfancam
     end
 
     def build_urls
-      (1..100).map { |i| "#{base_url}#{format('%03d', i)}.jpg" }
+      (1..100).map { |i| "#{base_url}#{format('%<filenumber>03d', filenumber: i)}.jpg" }
     end
 
     def base_url

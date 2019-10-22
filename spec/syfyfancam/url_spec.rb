@@ -1,14 +1,16 @@
+# frozen_string_literal: true
+
 require_relative '../../lib/syfyfancam/url'
 
 RSpec.describe Syfyfancam::URL do
   context 'valid URL' do
     let(:url) { 'http://www.syfyfancam.com/videos/ojt1nd5bnbog/' }
     let(:html) do
-      <<-EOS
+      <<-PAGE
       <html><head><title></title>
       <meta property="og:image" content="http://d1fmy74dfqc2hp.cf.net/resources/footage/vE/oJt1Nd5BnboG/024.jpg" />
       </head><body></body></html>
-      EOS
+      PAGE
     end
 
     subject(:syfyfancam) { described_class.new(url) }
