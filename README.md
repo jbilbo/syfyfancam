@@ -1,6 +1,6 @@
 # Syfyfancam
 
-[![Build Status](https://travis-ci.org/jbilbo/syfyfancam.svg?branch=master)](https://travis-ci.org/jbilbo/syfyfancam) [![Code Climate](https://codeclimate.com/github/jbilbo/syfyfancam/badges/gpa.svg)](https://codeclimate.com/github/jbilbo/syfyfancam) [![Test Coverage](https://codeclimate.com/github/jbilbo/syfyfancam/badges/coverage.svg)](https://codeclimate.com/github/jbilbo/syfyfancam/coverage)
+[![Build Status](https://travis-ci.org/jbilbo/syfyfancam.svg?branch=master)](https://travis-ci.org/jbilbo/syfyfancam)
 
 Ruby library to obtain the list of images associated to an online Syfyfancam video. See: http://www.syfyfancam.com/view-all-fancam-videos/
 
@@ -38,6 +38,6 @@ syfyfancam.personal_hash
 
 ## License
 
-Copyright © 2015 Jonathan Hernández
+Copyright © 2019 Jonathan Hernández
 
 Distributed under the MIT License.
