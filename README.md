@@ -36,7 +36,7 @@ syfyfancam.personal_hash
 # => "ojt1nd5bnbog"
 ```
 
-## License
+## License
 
 Copyright © 2019 Jonathan Hernández
 
