@@ -1,6 +1,6 @@
 # Syfyfancam
 
-[![Build Status](https://travis-ci.org/jbilbo/syfyfancam.svg?branch=master)](https://travis-ci.org/jbilbo/syfyfancam)
+[![Build Status](https://travis-ci.org/jbilbo/syfyfancam.svg?branch=master)](https://travis-ci.org/jbilbo/syfyfancam) [![Gem Version](https://badge.fury.io/rb/syfyfancam.svg)](https://badge.fury.io/rb/syfyfancam)
 
 Ruby library to obtain the list of images associated to an online Syfyfancam video. See: http://www.syfyfancam.com/view-all-fancam-videos/
 
